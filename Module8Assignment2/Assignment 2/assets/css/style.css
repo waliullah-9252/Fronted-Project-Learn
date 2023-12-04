@@ -1,0 +1,103 @@
+.image-size {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.check-icon {
+    margin-left: 6px;
+}
+
+.accordion-body p {
+    color: #C51A42;
+    font-weight: bold;
+}
+
+strong {
+    color: #1F73C8;
+}
+
+li {
+    font-weight: 600;
+    color: #1F73C8;
+}
+
+span {
+    font-weight: 600;
+}
+
+.design {
+    color: black !important;
+}
+
+.back-page {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-weight: 500;
+}
+
+.responsive-size {
+    width: 50%;
+    margin: auto;
+}
+
+.back-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.time-format {
+    margin-top: -31px;
+    color: white;
+    margin-left: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 223px;
+    text-align: center;
+}
+
+
+/* responsive css code start here  */
+@media (min-width: 0px) and (max-width: 425px) {
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .responsive-size {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 576px) {
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .responsive-size {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .responsive-size {
+        width: 100%;
+    }
+
+}
+
+
+/* responsive css code end here  */

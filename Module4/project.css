@@ -1,0 +1,21 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.design{
+    background-color: #1A187A;
+    width: 100%;
+}
+
+/* .design-container{
+    padding: 16px 16px;
+} */
+
+.brand-name{
+    padding-left: 5px;
+}
+
+/* .search-bar-container{
+    width: 500px;
+} */

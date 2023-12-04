@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    
+    <!-- deposite section start here  -->
+    <div class="amount-container row">
+        <div class="deposite amount-box">
+            <div>
+                <h1 id="deposit-amount" class="ammount">00</h1>
+                <p>Deposite</p>
+            </div>
+        </div>
+        <div class="withdraw amount-box">
+            <div>
+                <h1 id="withdraw-amount" class="ammount">00</h1>
+                <p>Withdraw</p>
+            </div>
+        </div>
+        <div class="total amount-box">
+            <div>
+                <h1 id="total-balance" class="ammount">00</h1>
+                <p>Total Balance</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="deposite-withdraw-container">
+        <div class="deposite-balance input-box">
+            <input type="number" id="deposite-input">
+            <br>
+            <button onclick="depositeHandel()" class="btn deposite-btn">Deposite</button>
+        </div>
+        <div class="withdraw-balance input-box">
+            <input type="number" id="withdraw-input">
+            <br>
+            <button onclick="withdrawHandle()" class="btn withdraw-btn">Withdraw</button>
+        </div>
+    </div>
+
+    <!-- deposite section end here  -->
+
+    <!-- script file here  -->
+    <script src="project.js"></script>
+</body>
+</html>

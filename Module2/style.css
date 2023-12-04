@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    color: #43ffc8d9;
+    background: linear-gradient(45deg, red, green);
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.description {
+    color: green;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+#unique {
+    color: red;
+    font-size: 35px;
+    background: purple;
+    width: 230px;
+    height: 45px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 40px;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: blue;
+    color: red;
+    font-size: 30px;
+    box-shadow: 5px 6px 10px red;
+}
+
+
+.test {
+    background: red;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 300px;
+    /* padding: 10px; */
+
+}
+
+.child {
+    background: green;
+    width: 50%;
+    height: 100vh;
+}
+
+#icon {
+    color: red;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.first {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    /* float: left; */
+    padding: 10px;
+    text-align: center;
+}
+
+.second {
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    /* float: left; */
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxSize {
+    border: 3px solid black;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    background-color: blue;
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+.box2{
+    background-color:red;
+    position: fixed;
+}
+.box3{
+    background-color: green;
+    margin-top: 20px;
+}
+
+.green{
+    background-color: green;
+    width: 350px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position: relative;
+    top: 26%;
+    left: 35%;
+}

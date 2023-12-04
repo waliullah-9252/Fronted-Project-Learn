@@ -1,0 +1,664 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar css start here  */
+
+.design {
+    background-color: #1A187A;
+    width: 100%;
+    padding: 16px 160px 16px 198px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-container {
+    width: 300px;
+}
+
+.search-container {
+    width: 300px;
+}
+
+.style {
+    opacity: 0.3;
+}
+
+.left-container {
+    margin-left: auto;
+}
+
+/* navbar css end here  */
+
+
+/* carousel banner section css start */
+
+.carousel-inner {
+    /* width: 80%;
+    margin: auto; */
+}
+
+.carousel-item {
+    background-image: url(Images/background-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.carousel-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carousel-left-content {
+    width: 714px;
+}
+
+.small-title {
+    color: #1E046A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    opacity: 0.4;
+    margin-bottom: 10px;
+}
+
+.big-title {
+    color: #000;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.96px;
+    margin-bottom: 18px;
+}
+
+.inner-title {
+    color: #000;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.96px;
+    margin-bottom: 18px;
+}
+
+.carousel-desc {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.carousel-btn {
+    border-radius: 6px;
+    border: 1px solid#FFF;
+    background: #171495;
+    padding: 16px 56px;
+    gap: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.carousel-control-prev{
+    color: #670E86;
+}
+
+.carousel-control-next{
+    background-color: #670E86;
+    color: red;
+}
+/* carousel banner section css  end*/
+
+
+
+/* feature container area css start  */
+/* .features-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+*/
+
+.feature-left-container {}
+
+
+.feature-box-container1 {
+    width: 720px;
+    height: 328px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 0px 48px 0px 0px;
+    position: relative;
+}
+
+.feature-left-image {}
+
+.feature-left-image-style1 {
+    width: 450px;
+    height: 343px;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+
+.feature-left-text {
+    width: 260px;
+    margin-top: 35px;
+}
+
+.feature-left-title1 {
+    color: #000;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.feature-left-description1 {
+    color: #909090;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.feature-box-container2 {
+    width: 720px;
+    height: 272px;
+    padding: 0px 48px 0px 156px;
+    background-color: #ADC2D7;
+    position: relative;
+}
+
+.feature-left-image-style2 {
+    width: 500px;
+    height: 272px;
+    position: absolute;
+    left: -2px;
+}
+
+.feature-left-text-another {
+    width: 144px;
+    margin-top: 20px;
+}
+
+.feature-left-title2 {
+    color: #000;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.feature-inner-title {
+    color: #000;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.feature-left-description2 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.feature-right-container {
+    width: 720px;
+    height: 600px;
+    padding: 44px 0px 44px 56px;
+    align-items: center;
+    gap: 1px;
+    background-color: #EDEDED;
+}
+
+.feature-right-text {
+    width: 300px;
+}
+
+.feature-right-title {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 56px;
+}
+
+.feature-inner-title {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.feature-right-description {
+    color: #909090;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.feature-right-btn {
+    padding: 16px 56px;
+    gap: 8px;
+    border-radius: 6px;
+    background-color: #27448E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.feature-right-image {
+    position: relative;
+}
+
+.feature-right-image-style {
+    width: 280px;
+    height: 480px;
+    position: absolute;
+    right: 0px;
+    top: -230px;
+}
+
+/* feature container area css end  */
+
+
+
+/* category section css start */
+
+.category-container {
+    background-color: #fafafa;
+    padding: 80px 0px;
+}
+
+.category-title-container {
+    width: 80%;
+    margin: auto;
+    line-height: 55px;
+}
+
+.category-title {
+    width: 310px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.category-title-style {}
+
+.category-icons {}
+
+.catagory-left-icon {}
+
+.catagory-right-icon {}
+
+
+.category-items {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.category-single-items {
+    width: 160px;
+    height: 130px;
+    padding: 30px 15px;
+    gap: 8px;
+    background-color: #EDEDED;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.single-icons {}
+
+.icon-name {}
+
+.icon-title {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* category section css end */
+
+
+/* card section css here start */
+
+.card-background {
+    padding: 56px 0px;
+    background-color: #fff;
+}
+
+.card-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.card-title-container {
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.arival-title {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.list-style-title1 {
+    color: #8B8B8B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.card-items {
+    gap: 16px;
+}
+
+.single-card1 {
+    width: 268px;
+    height: 456px;
+    padding: 24px 16px;
+    align-items: center;
+    border-radius: 9px;
+    background-color: #f6f6f6;
+}
+
+.single-card2 {
+    width: 268px;
+    height: 432px;
+    padding: 24px 16px;
+    align-items: center;
+    border-radius: 9px;
+    background-color: #f6f6f6;
+}
+
+.love-icon {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.card-image-style1 {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.card-image-style2 {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.card-description1 {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card-description2 {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card-price1 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    margin-bottom: 15px;
+}
+
+.card-price2 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    margin-bottom: 15px;
+}
+
+.card-btn1 {
+    border-radius: 8px;
+    background: #000;
+    padding: 12px 64px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card-btn2 {
+    border-radius: 8px;
+    background: #000;
+    padding: 12px 64px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* card section css here end */
+
+/* discount sale section css start */
+
+.background-sale {}
+
+.discount-sale-contianer {
+    height: 472px;
+    background-color: #958AD4;
+    padding: 104px 0px;
+}
+
+.discount-sale {}
+
+.left-img-style {
+    width: 320px;
+    height: 300px;
+}
+
+.right-img-style {
+    width: 330px;
+    height: 300px;
+}
+
+.text-middle {}
+
+.sale-title {
+    color: #25177B;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.inner-sale {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.sale-description {
+    width: 300px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* discount sale section css end */
+
+/* footer section css here  start */
+
+.footer-background-container {
+    background-color: #000;
+    /* width: 1439px; */
+    padding: 104px 0px;
+}
+
+.footer-main-container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-logo-style {
+    width: 46.494px;
+    height: 46.494px;
+}
+
+.footer-name-style {
+    width: 171.671px;
+    height: 21.459px;
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.footer-logo-icons {
+    margin-left: -170px;
+}
+
+.footer-title-style {
+    color: #FFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px;
+}
+
+.footer-style-same {
+    color: #CFCFCF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    list-style: none;
+    ;
+}
+
+/* footer section css here  end */
+
+
+
+
+
+
+
+
+
+
+
+/* responsive seciton here  */
+
+
+/* Default styles for larger screens */
+/* @media (min-width: 425px) {
+    .container {
+      max-width: 1440px;
+    }
+  } */
+
+/* Responsive styles for screens up to 425px */
+@media (max-width: 425px) {
+    .container {
+        /* max-width: 100%; */
+        /* padding: 0 10px; */
+    }
+
+    .banner-container {
+        /* flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+    } */
+
+    /* .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+    } */
+
+    /* .navbar-toggler {
+      order: 1;
+    } */
+
+    /* .navbar-collapse {
+      display: none;
+      text-align: center;
+    } */
+
+    .navbar-toggler-icon {
+        /* display: flex;
+        justify-content: center;
+        background-color: #fff; */
+        /* Change color as needed */
+    }
+
+    /* .nav-item {
+      margin-bottom: 10px;
+    } */
+
+    /* .search-container {
+      width: 100%;
+      margin-right: 0;
+    } */
+}

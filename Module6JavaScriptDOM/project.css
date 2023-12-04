@@ -1,0 +1,83 @@
+/* deposite section css start here  */
+
+.amount-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.amount-box{
+    border: 1px solid gray;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deposite{
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+
+.withdraw{
+    background-color: rgb(76, 0, 255);
+    color: white;
+}
+
+.total{
+    background-color: rgb(170, 0, 255);
+    color: white;
+}
+
+.deposite-withdraw-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.btn{
+    padding: 12px 30px;
+    margin-top: 10px;
+}
+
+.input-box{
+    padding: 30px;
+    border: 1px solid gray;
+
+}
+
+input{
+    padding: 7px 8px;
+}
+
+.deposite-btn{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.withdraw-btn{
+    background-color: rgb(255, 0, 106);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.ammount{
+    font-size: 40px;
+}
+
+
+/* deposite section css end here  */
